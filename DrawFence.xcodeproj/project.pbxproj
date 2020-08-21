@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3C85E27A5EB3C81A2F13EF /* libPods-DrawFence.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50EA4611237DEDA70B4BB5F4 /* libPods-DrawFence.a */; };
 		6A1CEFA01DF18A3200DB1447 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD95171D9BCB1700E7A2DA /* Security.framework */; };
 		B61084AD1D59D8D700C359A7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61084AC1D59D8D700C359A7 /* CoreTelephony.framework */; };
 		B61084B11D59D90500C359A7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B61084B01D59D90500C359A7 /* CoreLocation.framework */; };
@@ -21,8 +22,6 @@
 		B610911A1D641B1200C359A7 /* DrawRendererController.m in Sources */ = {isa = PBXBuildFile; fileRef = B61090671D641B1200C359A7 /* DrawRendererController.m */; };
 		B6AB18EA1E76753D00180CC3 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AB18E91E76753D00180CC3 /* GLKit.framework */; };
 		C98719A524EFA10E001E67D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C98719A324EFA10E001E67D3 /* ViewController.m */; };
-		C98719A724EFA350001E67D3 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C98719A624EFA350001E67D3 /* AMap.bundle */; };
-		C98719AB24EFA363001E67D3 /* AMapSearchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98719A824EFA362001E67D3 /* AMapSearchKit.framework */; };
 		C98719AC24EFA363001E67D3 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98719A924EFA363001E67D3 /* MAMapKit.framework */; };
 		C98719AD24EFA363001E67D3 /* AMapFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C98719AA24EFA363001E67D3 /* AMapFoundationKit.framework */; };
 /* End PBXBuildFile section */
@@ -41,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		19D2EECA1D59C2920039B22A /* 手动绘制围栏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手动绘制围栏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF6D7B29545CBB695DA6C8E /* Pods-DrawFence.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawFence.debug.xcconfig"; path = "Target Support Files/Pods-DrawFence/Pods-DrawFence.debug.xcconfig"; sourceTree = "<group>"; };
+		41D03A0502A2DE556788FC26 /* Pods-DrawFence.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawFence.release.xcconfig"; path = "Target Support Files/Pods-DrawFence/Pods-DrawFence.release.xcconfig"; sourceTree = "<group>"; };
+		50EA4611237DEDA70B4BB5F4 /* libPods-DrawFence.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawFence.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6078A5E1D9BD54D0057C965 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		B61084AA1D59D8D000C359A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B61084AC1D59D8D700C359A7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -64,8 +66,6 @@
 		B6FD95171D9BCB1700E7A2DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C98719A324EFA10E001E67D3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C98719A424EFA10E001E67D3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C98719A624EFA350001E67D3 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
-		C98719A824EFA362001E67D3 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
 		C98719A924EFA363001E67D3 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		C98719AA24EFA363001E67D3 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C98719AB24EFA363001E67D3 /* AMapSearchKit.framework in Frameworks */,
 				B6AB18EA1E76753D00180CC3 /* GLKit.framework in Frameworks */,
 				B61084CD1D59F43500C359A7 /* libc++.tbd in Frameworks */,
 				C98719AC24EFA363001E67D3 /* MAMapKit.framework in Frameworks */,
@@ -85,6 +84,7 @@
 				B61084B11D59D90500C359A7 /* CoreLocation.framework in Frameworks */,
 				B61084AD1D59D8D700C359A7 /* CoreTelephony.framework in Frameworks */,
 				C98719AD24EFA363001E67D3 /* AMapFoundationKit.framework in Frameworks */,
+				4E3C85E27A5EB3C81A2F13EF /* libPods-DrawFence.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,9 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				B6108FCB1D641B1200C359A7 /* Renderer */,
-				C98719A624EFA350001E67D3 /* AMap.bundle */,
 				B61084A11D59D72800C359A7 /* Frameworks */,
 				19D2EECB1D59C2920039B22A /* Products */,
+				CDBC151696572B77B7188534 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				C98719AA24EFA363001E67D3 /* AMapFoundationKit.framework */,
-				C98719A824EFA362001E67D3 /* AMapSearchKit.framework */,
 				C98719A924EFA363001E67D3 /* MAMapKit.framework */,
 				B6AB18E91E76753D00180CC3 /* GLKit.framework */,
 				B6078A5E1D9BD54D0057C965 /* JavaScriptCore.framework */,
@@ -125,6 +124,7 @@
 				B61084B01D59D90500C359A7 /* CoreLocation.framework */,
 				B61084AC1D59D8D700C359A7 /* CoreTelephony.framework */,
 				B61084AA1D59D8D000C359A7 /* UIKit.framework */,
+				50EA4611237DEDA70B4BB5F4 /* libPods-DrawFence.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,6 +165,15 @@
 			path = Samples;
 			sourceTree = "<group>";
 		};
+		CDBC151696572B77B7188534 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EF6D7B29545CBB695DA6C8E /* Pods-DrawFence.debug.xcconfig */,
+				41D03A0502A2DE556788FC26 /* Pods-DrawFence.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,10 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D2EEE11D59C2920039B22A /* Build configuration list for PBXNativeTarget "DrawFence" */;
 			buildPhases = (
+				4EB7F515A262DB35659D2E88 /* [CP] Check Pods Manifest.lock */,
 				19D2EEC61D59C2920039B22A /* Sources */,
 				19D2EEC71D59C2920039B22A /* Frameworks */,
 				19D2EEC81D59C2920039B22A /* Resources */,
 				D9D1F0681E1B4B1700489082 /* CopyFiles */,
+				BCB7E0FE1EA903B9B5A8FB9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,12 +240,54 @@
 			files = (
 				B61090D51D641B1200C359A7 /* Assets.xcassets in Resources */,
 				B61090D61D641B1200C359A7 /* LaunchScreen.storyboard in Resources */,
-				C98719A724EFA350001E67D3 /* AMap.bundle in Resources */,
 				B61090D71D641B1200C359A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EB7F515A262DB35659D2E88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DrawFence-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCB7E0FE1EA903B9B5A8FB9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DrawFence/Pods-DrawFence-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DrawFence/Pods-DrawFence-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19D2EEC61D59C2920039B22A /* Sources */ = {
@@ -363,6 +416,7 @@
 		};
 		19D2EEE21D59C2920039B22A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF6D7B29545CBB695DA6C8E /* Pods-DrawFence.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -390,6 +444,7 @@
 		};
 		19D2EEE31D59C2920039B22A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D03A0502A2DE556788FC26 /* Pods-DrawFence.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
